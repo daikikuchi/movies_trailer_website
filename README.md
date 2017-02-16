@@ -11,4 +11,4 @@ $ python entertainment_center.py
 Open browser and go to either of the below urls
 - http://localhost:8080/
 - http://localhost:8080/movies
-- http://localhost:8080/movies.hmtl
+- http://localhost:8080/movies.html
