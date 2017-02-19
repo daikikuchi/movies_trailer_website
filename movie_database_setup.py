@@ -1,12 +1,12 @@
-import os
-import sys
-from sqlalchemy import Column, ForeignKey, Integer, String
+from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
+
+#Use sqlalchemy to import necessary modules to create SQLight database.
 
 Base = declarative_base()
 
+# Create class Movie with attributes
 class Movie(Base):
     __tablename__ = 'movie'
 

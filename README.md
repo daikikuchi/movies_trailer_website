@@ -5,10 +5,16 @@ To write server-side code to store a list of my favorite movies, including box a
 This project is written in python with sqlite as a database to store movies information like titles, story line, image url and youtube trailer. It uses Flask as framework.
 
 To run the project
+1. Insert movie data into SQLite database
+```sh
+$ python moviepopulator.py
+```
+
+2. Run python file to get created HTML file.
 ```sh
 $ python entertainment_center.py
 ```
-Open browser and go to either of the below urls
+3. Open browser and go to either of the below urls
 - http://localhost:8080/
 - http://localhost:8080/movies
 - http://localhost:8080/movies.html

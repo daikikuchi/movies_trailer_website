@@ -1,5 +1,5 @@
-import webbrowser
-import os
+#import webbrowser
+#import os
 import re
 
 # Styles and scripting for the page
@@ -142,7 +142,8 @@ def create_movie_tiles_content(movies):
         )
     return content
 
-def open_movies_page(movies):
+#def open_movies_page(movies):
+def create_movies_page(movies):
   # Create or overwrite the output file
   output_file = open('templates/movies.html', 'w')
 

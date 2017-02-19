@@ -10,6 +10,8 @@ DBSession = sessionmaker(bind=engine)
 
 session = DBSession()
 
+#add movie information to SQLite database
+
 toy_story = Movie(title="Toy Story", storyline="A story of a boy and his toys that come to life",
                   poster_image_url="https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                   trailer_youtube_url ="https://www.youtube.com/watch?v=KYz2wyBy3kc")
@@ -50,4 +52,5 @@ the_shawshank_redemption = Movie(title="The Shawshank Redemption",
 session.add(the_shawshank_redemption)
 session.commit()
 
+# to check if adding is done.
 print "added movies!"
