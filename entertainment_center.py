@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from movie_database_setup import Movie, Base
 from flask import Flask, render_template
+
 app = Flask(__name__)
 
 # import Flask to create Web server.
@@ -12,6 +13,7 @@ Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
+
 
 @app.route('/')
 @app.route('/movies')
@@ -26,4 +28,4 @@ def movie_list():
 # set up localhost.
 if __name__ == '__main__':
     app.debug = True
-    app.run(host = 'localhost', port = 8080)
+    app.run(host='localhost', port=8080)
