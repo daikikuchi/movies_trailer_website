@@ -1,0 +1,126 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+hr {
+    color: #7d97ad;
+    font-weight: bold;
+}
+
+ul {
+    color: #fff;
+}
+
+.headerrow {
+    margin-top: 30px;
+}
+
+
+.myname {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.border {
+    border-bottom: solid 5px #7d97ad;
+    margin-bottom: 10px;
+}
+
+#myself {
+    width: 100%;
+    position: relative;
+    background-image: url("images/family.jpg");
+    background-size: cover;
+    height: 330px;
+    cursor: pointer;
+}
+
+#about-me {
+    margin-top: 5px;
+}
+
+
+#description {
+    box-sizing: border-box;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 55%;
+    width: 100%;
+    color: #fff;
+    padding: 1em;
+    display: none;
+    font-size: 18px;
+}
+
+.nav-menu {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bundle {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    line-height: 24px;
+    padding: 24px;
+    font-size: 19px;
+}
+
+.nav-menu a {
+    color: #2d3c49;
+    padding: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-menu a:hover {
+    opacity: 0.8;
+    color: #DC143C;
+}
+
+
+.worktext {
+    color: #2d3c49;
+    font-family: "Varela Round", sans-serif;
+    font-weight: normal;
+}
+
+.img-responsive {
+    cursor: pointer;
+}
+
+.img-responsive:hover {
+    opacity: 0.8;
+}
+
+div.url a {
+    color: #2d3c49;
+    font-weight: bold;
+}
+
+div.url a:hover {
+    opacity: 0.8;
+}
+
+div.modal-body p {
+    font-size: 1.5em;
+    margin-top:10px;
+}
+
+.footerrow {
+    margin-bottom: 20px;
+}
+
+
